@@ -1,0 +1,30 @@
+body {
+    font-family: 'Nunito', sans-serif;
+}
+
+.textform {
+    width: 50%;
+}
+.textform textarea {
+    width: 100%;
+    padding: 8px;
+}
+.textform .btn {
+    padding: 7px 25px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.concordance {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    max-height: 100vh;
+    overflow-x: visible;
+    overflow-y: auto;
+}
+.concordance table td:first-child {
+    width: 70px;
+}
+.concordance table td:last-child {
+    padding-left: 30px;
+}
